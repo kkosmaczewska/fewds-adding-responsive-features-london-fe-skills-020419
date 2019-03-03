@@ -56,7 +56,7 @@
 }
 .col1 .col2 .col3 {
 width: 100%;
-margin: left 0;
+margin-left: 0;
 float: none }
 
 .border-right {
@@ -65,5 +65,16 @@ float: none }
 
 #details div {
   height: auto;
+}
+}
+@media (min-width: 700px) {
+  nav {
+    display: none;
+  }
+  #navbar nav a.menu-icon {
+  display: block;
+}
+h1 h2 {
+  display: none;
 }
 }
